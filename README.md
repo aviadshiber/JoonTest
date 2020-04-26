@@ -8,5 +8,5 @@ please set the following environment variables:
     FULL_CONTACT_API_KEY=<put_your_api_key_here>
 
   then run with *node index.js*
-  (or use .env file in the root folder and run '*npm run dev*'
+  (or use .env file in the root folder and run '*npm run dev*')
   
