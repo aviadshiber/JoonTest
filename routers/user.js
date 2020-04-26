@@ -31,7 +31,7 @@ router.post('/getinfo',async  (req, res) => {
             "address": address
         })
     })
-    .catch(err => res.status(500).send(e))
+    .catch(err => res.status(500).send(err))
    
 
 });
