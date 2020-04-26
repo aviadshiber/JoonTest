@@ -7,7 +7,6 @@ const router = new express.Router()
 // POST  body= {email=aviadshiber@gmail.com}
 router.post('/getinfo',async  (req, res) => {
     const email = req.body.email
-    console.log(token)
     console.log(email)
     await fetch('https://api.fullcontact.com/v3/person.enrich',{
         method: 'POST',
