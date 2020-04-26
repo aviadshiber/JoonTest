@@ -4,6 +4,10 @@ require('dotenv').config()
 const token=process.env.FULL_CONTACT_API_KEY
 
 const router = new express.Router()
+
+router.get('/',async (req,res)=>{
+    res.send("send request to /getinfo endpoint")
+})
 // POST  body= {email=aviadshiber@gmail.com}
 router.post('/getinfo',async  (req, res) => {
     const email = req.body.email
